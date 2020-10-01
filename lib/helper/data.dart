@@ -51,6 +51,12 @@ List<Category> getCategories() {
   categoryObject.imageUrl =
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80";
   category.add(categoryObject);
+    //6
+  categoryObject = Category();
+  categoryObject.categoryName = "COVID-19";
+  categoryObject.imageUrl =
+      "https://images.unsplash.com/photo-1580458072512-96ced1f43991?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60";
+  category.add(categoryObject);
 
   return category;
 }
